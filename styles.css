@@ -1,0 +1,108 @@
+img.rounded-corners{
+    border-radius: 50%;
+    margin: 20px;
+
+}
+
+.left {
+    float: left;
+    padding: 0 10px 0 0;}
+
+.right{
+    float: right;
+    padding: 0 10px 0 0;
+}
+
+ 
+.container {
+    display: grid;
+    grid-template-columns: 2fr  1fr;
+    grid-gap: 10px 20px;
+    grid-template-areas:
+      "header  header "
+      "article aside"
+      "footer  footer ";
+  }
+  
+  header {
+    grid-area: header;
+    background: #63B3ED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    width: 100%;
+    text-align: center; 
+    margin: 0% ; 
+    min-height: 200px; 
+    align-items: center;
+  }
+  
+  aside {
+    grid-area: aside;
+   
+    padding: 50px;
+  }
+
+  article {
+    grid-area: article;
+ 
+    padding: 50px;
+  }
+  
+  
+  footer {
+    grid-area: footer;
+    background-color: #2C5282;
+  }
+    
+  
+  h1{
+    font-size: 36px;
+    color: #FFFFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .headerText{
+      color: #FFFFFF;
+  }
+
+  p{
+      font-size: 18px;
+      color: #2D3748;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+
+.blogTitle{
+    font-size: 32px;
+    color: #48BB78;
+}
+
+.Date-and-Author{
+    color: #718096;
+}
+
+.sidebar-headings{
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3.sidebar-About{
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.sidebar-About{
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+
+.links{
+    color: #4299E1;
+}
+
+.footerText{
+    color: #FFFFFF;
+}
+ 
